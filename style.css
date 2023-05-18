@@ -9,3 +9,49 @@ body {
 h1 {
 	text-align: center;
 }
+
+.foto img{
+	border-radius: 50%;
+	float: left;
+	
+}
+
+h2{
+	overflow: auto;
+}
+
+.osoba{
+	border: 1px grey solid;
+	border-radius: 2%;
+	overflow: auto;
+	margin: 5px;
+	padding: 5px;
+	box-shadow: rgb(195, 231, 231) 4px 4px 2px;
+}
+
+.tym{
+	padding: 5px;
+	text-align: center;
+}
+.popis{
+	padding: 5px;
+}
+
+@media (min-width: 500px) {
+.tym{
+	display: flex;
+	flex-wrap: wrap;
+	}
+.osoba{
+		flex-basis: calc(50% - 10px);
+}
+}
+@media (min-width: 1024px) {
+.tym{
+	display:flex;
+	flex-wrap: wrap;
+}
+.osoba{
+	flex-basis: calc(25% - 10px);
+}
+}
