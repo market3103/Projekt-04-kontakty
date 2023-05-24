@@ -13,6 +13,7 @@ h1 {
 .foto img{
 	border-radius: 50%;
 	float: left;
+	margin: 15px;
 	
 }
 
@@ -35,6 +36,7 @@ h2{
 }
 .popis{
 	padding: 5px;
+	text-align:left ;
 }
 
 @media (min-width: 500px) {
